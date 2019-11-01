@@ -9,11 +9,11 @@ class Shoe
     BRANDS << brand 
   end
 
-  #   if BRANDS.include?(@brand)
-  #   else
+    if BRANDS.include?(@brand)
+    else
      
-  #   end
-  # end  
+    end
+  end  
   
   def cobble
     self.condition = "new"
